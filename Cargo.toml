@@ -13,7 +13,6 @@ license = "Apache-2.0"
 edition = "2021"
 
 [dependencies]
-rand = "0.8"
 byteorder = "1.0.0"
 num-bigint = "0.4"
 num-traits = "0.2"
@@ -24,6 +23,7 @@ lazy_static = "1.0"
 [dev-dependencies]
 hex = "0.4"
 base64 = "0.13.0"
+rand = "0.8"
 
 [features]
 internal_benches = []
