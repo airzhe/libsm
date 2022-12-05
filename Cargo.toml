@@ -19,7 +19,7 @@ num-traits = "0.2"
 num-integer = "0.1"
 yasna = { version = "0.4.0", features = [ "num-bigint" ]}
 lazy_static = "1.0"
-rand = { version = "0.2", features = ["js"] }
+#rand = { version = "0.2", features = ["js"] }
 getrandom = { version = "0.2", features = ["js"] }
 
 [dev-dependencies]
